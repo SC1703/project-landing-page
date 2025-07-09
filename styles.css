@@ -117,3 +117,58 @@ header .container {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/*
+  information section
+*/
+
+.information .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+}
+
+.information-heading {
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.information-items-list {
+  margin-top: 32px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.information-item figure {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border: 3px solid #3882f6;
+  border-radius: 1em;
+  margin-bottom: 10px;
+}
+
+.information-item figcaption {
+  text-align: center;
+}
+
+/*
+  quote section
+*/
+
+.quote {
+}
+
+.quote .container {
+}
+
+.inspiring-quote {
+}
+
+.quotee {
+}
