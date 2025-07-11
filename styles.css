@@ -183,3 +183,37 @@ header .container {
   font-size: 20px;
   text-align: right;
 }
+
+/*
+  call-to-action section
+*/
+
+.call-to-action {
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.call-to-action .container {
+  height: 150px;
+  width: 100%;
+  border-radius: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+}
+
+.cta-subtext {
+  font-weight: 200;
+}
+
+.cta-btn {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 1px solid #f9faf8;
+  padding: 6px 24px;
+  font-size: 14px;
+  border-radius: 5px;
+}
